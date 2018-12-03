@@ -1,0 +1,27 @@
+table, td, th {
+    border: 1px ;
+    border-style: solid;
+    border-color: white;
+    border-collapse: collapse;
+  }
+thead > tr:nth-child(2){
+    background-color: #91C4D5;
+}
+thead{
+    background-color: #66A8BE;
+}
+tbody > tr > th{
+    background-color: #91C4D5
+}
+tbody > tr > td{
+    background-color: #D6EAF1;
+}
+tfoot > tr > th:nth-child(n+2) {
+    background-color: #D8E1C6;
+    text-align: left;
+    padding: 0 10px 15px 5px;
+ }
+ tfoot th:nth-child(1){
+     background-color: #B1CC7F;
+ }
+

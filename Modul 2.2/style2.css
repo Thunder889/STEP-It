@@ -1,0 +1,7 @@
+.first{
+    font-weight:bold;
+    text-decoration: line-through;
+}
+.done{
+    text-decoration: line-through;
+}
