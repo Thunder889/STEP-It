@@ -1,0 +1,71 @@
+
+#big-ground{
+    background-image:url(1000_2048x2048_allipadwallpapers_com.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+#small-ground{
+    border-radius: 3px;
+    background-color:rgba(255, 255, 255, 0.733);
+    padding: 51px;
+}
+
+h1 , p {
+    color: #02029F;
+    text-align: right;
+}
+.name{
+    border: solid 4px;
+    border-color: #FA6600;
+    background-color: #FA6600;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.email{
+    border: solid 4px;
+    border-color: #00B7D9;
+    background-color: #00B7E6;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.age{
+    border: solid 4px;
+    border-color: #7ECE03;
+    background-color: #7ECE03;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+div > label{
+    display: block;
+    color: white;
+}
+div > input{
+    width: 100%;
+    border-radius: 5px;
+}
+#big-ground{
+    padding: 20px;
+}
+#small-ground{
+    color: rgba(128, 129, 167, 0.7);
+    border-radius: 5px;
+    padding: 50px;
+    margin: 10px;
+    border: white solid 2px;
+}
+.button{
+    margin: 20px 50px;;
+    padding: 20px;
+    font-size: 22px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+div.button > input{
+    padding: 10px;
+    border-radius: 7px;
+    border: 0 none;
+}
