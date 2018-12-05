@@ -3,6 +3,7 @@
     background-image:url(1000_2048x2048_allipadwallpapers_com.jpg) ;
     background-repeat: no-repeat;
     background-size: cover ;
+    width: 800px;
 }
 #small-ground{
     border-radius: 3px;

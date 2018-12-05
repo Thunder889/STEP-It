@@ -1,3 +1,53 @@
 table{
+    background-color: #ECE7E3;
+    border-collapse: collapse;
     width: 800px;
+}
+#big-ground{
+    background-image:url(poza-brick.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    padding: 20px;
+    width: 800px;
+}
+#small-ground{
+    border-radius: 3px;
+    background-color:#ECE7E3;
+    width: 800px;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 10px;
+    border: white solid 2px;
+}
+ tr > td:nth-child(1) {
+ border-right: solid 4px #F1BCAA;
+ border-top: solid 4px #4C7F9E;
+ border-bottom: solid 4px #4C7F9E;
+ border-left: solid 4px #4C7F9E;
+}
+#bord{
+    border: solid 4px #4C7F9E;
+}
+#spec{
+    border: 0 none;
+    padding: 20px;
+}
+th{
+    border: solid 4px #4C7F9E;
+}
+input{
+    margin: 10px;
+    background-color: #ECE7E3;
+    border: 0 none;
+}
+textarea{
+    margin: 10px;
+    background-color: #ECE7E3;
+    border: 0 none;
+}
+td {
+    text-align: start;
+}
+#spatiu-final{
+    border: 0 none;
 }
