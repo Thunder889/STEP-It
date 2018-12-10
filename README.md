@@ -2,4 +2,4 @@
 [Step IT Academy, Bucharest](https://itstep.ro/)
 Trainer: @Dragos Dehelean
 =
-* [Tabel preturi smechere]
+
