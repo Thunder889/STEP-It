@@ -6,9 +6,9 @@ table{
 #big-ground{
     background-image:url(poza-brick.jpg) ;
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: 100% ;
     padding: 20px;
-    width: 800px;
+    width: 910px;
 }
 #small-ground{
     border-radius: 3px;
@@ -18,6 +18,10 @@ table{
     border-radius: 5px;
     margin: 10px;
     border: white solid 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
  tr > td:nth-child(1) {
  border-right: solid 4px #F1BCAA;
@@ -50,4 +54,7 @@ td {
 }
 #spatiu-final{
     border: 0 none;
+}
+.button{
+    
 }
