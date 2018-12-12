@@ -1,0 +1,27 @@
+.first{
+    float: left;
+    display: block;
+}
+i1{
+}
+.second{
+    display: block;
+}
+.third{
+    display: block;
+    clear: left;
+}
+.fourth{
+    display: block;
+}
+.seventh{
+    display: block;
+}
+#s{
+    display: block;
+    background-color:#007BFF; 
+    color: #007BFF;
+}
+label{
+    display: block;
+}

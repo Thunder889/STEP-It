@@ -56,5 +56,11 @@ td {
     border: 0 none;
 }
 .button{
-    
+    text-align: right;
+}
+.text{
+    border: black 1px;
+    border-radius: 5px;
+    color: #96AFC2;
+    padding: 5px;
 }
