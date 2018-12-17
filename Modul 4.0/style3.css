@@ -1,27 +1,91 @@
+body{
+    border: 0 none;
+}
 .first{
     float: left;
     display: block;
-}
-i1{
+    border: 1px solid white;
+    margin: 0px 10px 0px 0px;
 }
 .second{
-    display: block;
+    clear: right;
+    border: 1px solid white;
 }
 .third{
-    display: block;
-    clear: left;
+    clear: both;
 }
-.fourth{
+.sixth{
+    float: left;
     display: block;
+    border: 1px solid white;
 }
 .seventh{
-    display: block;
+    border: 1px solid white;
 }
-#s{
-    display: block;
-    background-color:#007BFF; 
-    color: #007BFF;
+.nain{
+    clear: both;
+}
+div.first > input , label{
+    border-radius: 3px;
+    margin: 3px 10px;
+}
+div.second > input , label{
+    border-radius: 3px;
+    margin: 3px 10px;
+}
+div.third > select , label{
+    border-radius: 3px;
+    margin: 3px 10px;
+    width: 95%;
+}
+div.fourth > input , label{
+    border-radius: 3px;
+    margin: 3px 10px;
+    width: 95%;
+}
+div.fifth > textarea , label{
+    border-radius: 3px;
+    margin: 3px 10px;
+    width: 95%;
+}
+div.sixth > select , label{
+    border-radius: 3px;
+    margin: 3px 10px;
+    
+}
+div.seventh > select , label{
+    border-radius: 3px;
+    margin: 3px 10px;
 }
 label{
     display: block;
+}
+#ck{
+    display:inline; 
+}
+#lck{
+    display:inline; 
+}
+#button{
+    background-color: #007BFF;
+    color: white;
+    border-radius: 2px;
+    border: 0 none;
+    width: 95%;
+    height: 30px;
+    margin: 10px;
+}
+#button2{
+margin: 0 auto;
+display: flex;
+justify-content: center;
+}
+#cc{
+    width: 43%;
+}
+#c1{
+    width: 100%;
+}
+#c2{
+    width: 43%;
 }

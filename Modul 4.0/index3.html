@@ -13,21 +13,22 @@
 <body>
     <form action="">
         <div>
-            <div class="first">
-                <label for="">First Name</label>
-                <input type="text" class="i1">
+            <div class="first" id="cc">
+                <label for="" id="c1">First Name</label>
+                <input type="text" class="i1" id="c1">
             </div>
             <div class="second">
                 <label for="">Last Name</label>
-                <input type="text">
+                <input type="text" id="c2">
             </div>
         </div>
         <div class="third">
             <label for="">Client of:</label>
-            <select name="" id="select">
+            <select name="" id="select" size="4" multiple>
                 <option value="">TELEKOM</option>
                 <option value="">ORANGE</option>
                 <option value="">VODAFONE</option>
+                <option value="">DIGI</option>
             </select>
         </div>
         <div class="fourth">
@@ -39,22 +40,50 @@
             <textarea name="" id="" cols="30" rows="10"></textarea>
         </div>
         <div class="">
-            <label for="">Country</label>
-            <input type="text" name="" id="">
-            <label for="">State</label>
-            <input type="text" name="" id="">
+            <div class="sixth" id="cc">
+                <label for="" id="c1">Country</label>
+                <select name="" id="c1">
+                    <option value="">ROM</option>
+                    <option value="">ENG</option>
+                    <option value="">ESP</option>
+                    <option value="">GER</option>
+                    <option value="">FRA</option>
+                </select>
+            </div>
+            <div class="seventh" >
+                <label for="" id="">State</label>
+                <select name="" id="c2">
+                    <option value="">AL</option>
+                    <option value="">AG</option>
+                    <option value="">AS</option>
+                    <option value="">AP</option>
+                </select>
+            </div>
         </div>
-        <div>
-            <input type="checkbox">Shipping address is the same as billing adress
+        <div class="nain">
+            <hr>
+            <input type="checkbox" class="nain">Shipping address is the same as billing adress
+            <hr>
         </div>
-        <div class="seventh">
-            <input type="radio" name="a" id="s">
-            <input type="radio" name="a" id="s">
-            <input type="radio" name="a" id="s">
-        </div>
-        <div>
-            <button>Continue to checkout</button>
-        </div>
+        <div class="eight">
+            <label for="">Payment</label>
+            <div>
+                <input type="radio" name="a" id="check">
+                <label for="" id="lck">Credit card</label>
+            </div>
+            <div>
+                <input type="radio" name="a" id="ck">
+                <label for="" id="lck">Debit card</label>
+            </div>
+            <div>
+                <input type="radio" name="a" id="ck">
+                <label for="" id="lck">Paypal</label>
+            </div>
+            <hr>
+            <div id="button2">
+                <input type="button" value="Continue to checkout" id="button">
+            </div>
+            
     </form>
 </body>
 
