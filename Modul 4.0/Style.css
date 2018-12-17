@@ -1,14 +1,29 @@
 
+body{
+    display: flex;
+    justify-content: center;
+
+}
 #big-ground{
     background-image:url(1000_2048x2048_allipadwallpapers_com.jpg) ;
     background-repeat: no-repeat;
     background-size: cover ;
+    display: flex;
+    justify-content: center;
+    width: 550px;
     
 }
 #small-ground{
     border-radius: 3px;
     background-color:rgba(255, 255, 255, 0.733);
-    padding: 51px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgba(128, 129, 167, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border: white solid 2px;
 }
 
 h1 , p {
@@ -49,13 +64,6 @@ div > input{
 }
 #big-ground{
     padding: 20px;
-}
-#small-ground{
-    color: rgba(128, 129, 167, 0.7);
-    border-radius: 5px;
-    padding: 50px;
-    margin: 10px;
-    border: white solid 2px;
 }
 .button{
     margin: 20px 50px;;
