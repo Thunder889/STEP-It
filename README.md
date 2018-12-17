@@ -3,7 +3,7 @@
 Trainer: @Dragos Dehelean
 
 <p>Repository <a href="https://github.com/dragosdehelean/HTML-CSS_FT2">Dragos Dehelean</a></p>
-<p>Repository <a href="https://github.com/renown93/Stepit2018">Yağız</a></p>
+<p>Repository <a href="https://github.com/renown93/Stepit2018">>>Yağız<<</a></p>
 
 <p>Modul 3.2 - <a href="https://thunder889.github.io/Step-IT/Modul%203.2/Index.html">Table_1</a></p>
 <p>Modul 3.2 - <a href="https://thunder889.github.io/Step-IT/Modul%203.2/Index2.html">Table_2</a></p>
